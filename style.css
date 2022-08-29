@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: orange;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+    line-height: 1.4;
+}
+
+.times, .btn{
+    display: flex;
+    justify-content: center;
+}
+.times{
+    padding: 24px;
+}
+#minutes, #tens, #seconds{
+    font-size: 24px;
+}
+.btn{
+}
+#btn-start, #btn-stop,
+#btn-reset{
+    width: 120px;
+    height: 60px;
+    border-radius: 3px;
+    border-color: #fff;
+    font-weight: 700;
+    color: #000;
+}
+#btn-start:hover , #btn-stop:hover,
+#btn-reset:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
+#btn-start{
+
+}
+#btn-stop{
+    margin: 0 24px;
+}
+#btn-reset{
+
+}
